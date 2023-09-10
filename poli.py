@@ -14,6 +14,7 @@ assert is_palindrome(12345) is False
 assert is_palindrome(12321) is True
 
 
+
 def get_longest_palindrome(star):
     revers = star[::-1]
 
@@ -39,6 +40,7 @@ def get_longest_palindrome(star):
 assert get_longest_palindrome("f21aaaa1b1aaavgfa1b2") == "aaa1b1aaa"
 assert get_longest_palindrome("0123219") == "12321"
 assert get_longest_palindrome("1012210") == "012210"
+
 
 
 def get_longest_uniq_length(string):
